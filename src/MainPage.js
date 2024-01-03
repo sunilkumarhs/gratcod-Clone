@@ -13,12 +13,12 @@ const MainPage = () => {
   // const [padding, setPadding] = useState("4");
   const imageValues = [
     <img
-      className="w-full h-full"
+      className="w-full h-full text-gray-300"
       alt="cloud"
       src="https://gartcod.cloud/_next/static/media/desktop.6a735a94.svg"
     />,
     <svg
-      className="w-full h-full"
+      className="w-full h-full text-yellow-300"
       xmlns="http://www.w3.org/2000/svg"
       x="0px"
       y="0px"
