@@ -10,7 +10,7 @@ const MainPage = () => {
     />
   );
   const [logTextColor, setLogTextColor] = useState("gray-300");
-  const [padding, setPadding] = useState("4");
+  // const [padding, setPadding] = useState("4");
   const imageValues = [
     <img
       className="w-full h-full"
@@ -134,7 +134,7 @@ const MainPage = () => {
           />
         </div>
       </div>
-      <div className={`absolute pt-${padding} px-[36rem]`}>
+      <div className={`absolute pt-4 px-[36rem]`}>
         <button
           className={`bg-${logTextColor} w-28 h-10 text-white rounded-md`}
         >
